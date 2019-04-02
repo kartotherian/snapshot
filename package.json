@@ -21,10 +21,10 @@
     "@kartotherian/abaculus": "^3.0.1",
     "bluebird": "^3.5.0",
     "domain-validator": "^0.0.5",
-    "@mapbox/geojson-mapnikify": "^1.1.0",
+    "@mapbox/geojson-mapnikify": "^2.0.0",
     "leaflet-headless": "^0.2.5",
     "mwapi": "^0.0.10",
-    "@mapbox/tilelive-overlay": "1.0.0",
+    "@mapbox/tilelive-overlay": "^2.0.0",
     "underscore": "^1.8.3",
     "@kartotherian/err": "^0.0.3",
     "@kartotherian/input-validator": "^0.0.6",
@@ -32,5 +32,8 @@
   },
   "optionalDependencies": {
     "sphericalmercator": "^1.0.5"
+  },
+  "peerDependencies": {
+    "mapnik": "^4.0.2"
   }
 }
